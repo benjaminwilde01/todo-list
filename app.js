@@ -18,3 +18,11 @@ const renderList = () => {
         listItemDiv.append(createBtn)
     })
 }
+
+
+submitButton.onclick = () => {
+    const inputValue = document.querySelector('#input-box').value
+    todoArray.push(inputValue)
+    console.log(todoArray)
+    renderList()
+}
