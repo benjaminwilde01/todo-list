@@ -3,8 +3,6 @@ const submitButton = document.querySelector('#submitBtn')
 const todoContainer = document.querySelector('.todo')
 const completedDiv = document.querySelector('.completed')
 
-// Create Elements
-
 const todoArray = []
 
 // Displays todo items
